@@ -1,0 +1,55 @@
+.slider-colorable {
+     -slider-default-thumb: #FF8F00;
+     -slider-default-track: #cccccc;
+     -slider-default-track-color: #cceeee;
+}
+
+.slider-colorable .track,
+.slider-colorable:vertical .track {
+    -fx-background-color: -slider-default-track;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-pref-width: 2px;
+    -fx-pref-height: 15px;
+}
+
+.slider-colorable .thumb,
+.slider-colorable:focused .thumb {
+    -fx-background-color: -slider-default-thumb;
+    -fx-background-radius: 2;
+    -fx-background-insets: 0;
+    -fx-pref-width: 1px;
+    -fx-pref-height: 25px;
+}
+
+.slider-colorable .colored-track {
+    -fx-background-color: -slider-default-track-color;
+    -fx-background-radius: 2;
+    -fx-background-insets: 0;
+}
+
+.slider-colorable .slider-value {
+    -fx-stroke: WHITE;
+    -fx-font-size: 10;
+}
+
+.slider-colorable .animated-thumb {
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-background-color: -slider-default-thumb;
+    -fx-background-radius: 50% 50% 50% 0%;
+    -fx-background-insets: 0;
+}
+
+.slider-colorable:min .thumb,
+.slider-colorable:min:focused .thumb {
+    -fx-background-color: -slider-default-track;
+    -fx-background-radius: 20;
+    -fx-background-insets: 0;
+}
+
+.slider-colorable:min .animated-thumb {
+    -fx-background-color: -slider-default-track;
+    -fx-background-radius: 50% 50% 50% 0%;
+    -fx-background-insets: 0;
+}
