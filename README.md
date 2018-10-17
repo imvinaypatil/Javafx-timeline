@@ -2,7 +2,8 @@
 
 ###### usage
 
-```Timeline recordVisualiser = new Timeline(600,400);
+```
+Timeline recordVisualiser = new Timeline(600,400);
 RecordsLibrary library = new RecordsLibrary();
 recordVisualiser.setRecordsLibrary(library);
 recordVisualiser.populateRecords();
